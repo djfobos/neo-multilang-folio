@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# NEO Nazareveli - Portfolio
 
-## Project info
+Modern, multilingual portfolio website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/10fdcfb1-75ee-4369-b60f-a709c0ebdc90
+## Features
 
-## How can I edit this code?
+- 🌍 **Multilingual**: Georgian, Russian, English with react-i18next
+- 🎨 **Modern Design**: Neominimalist aesthetic with custom design system
+- ⚡ **High Performance**: Optimized for speed and SEO
+- 📱 **Fully Responsive**: Mobile-first approach
+- 🌓 **Dark/Light Theme**: System preference support
+- ✨ **Smooth Animations**: Framer Motion for delightful interactions
+- ♿ **Accessible**: WCAG 2.2 AA compliant
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **Framework**: React 18 + Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS + CSS Variables
+- **UI Components**: shadcn/ui
+- **Animations**: Framer Motion
+- **i18n**: react-i18next
+- **Icons**: Lucide React
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/10fdcfb1-75ee-4369-b60f-a709c0ebdc90) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Install dependencies
+npm install
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/        # Reusable UI components
+├── pages/            # Route pages
+├── data/             # Project and skill data
+├── i18n/             # Translation files
+│   ├── config.ts
+│   └── locales/      # ka, ru, en translations
+├── lib/              # Utilities
+└── index.css         # Design system tokens
+```
 
-**Use GitHub Codespaces**
+## Pages
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Home** (`/`) - Hero, featured projects, CTA
+- **About** (`/about`) - Bio, skills, experience timeline
+- **Projects** (`/projects`) - Project gallery with filters
+- **Project Detail** (`/projects/:id`) - Case study pages
+- **Services** (`/services`) - Service offerings
+- **Contact** (`/contact`) - Contact form
 
-## What technologies are used for this project?
+## Customization
 
-This project is built with:
+### Design System
+Edit `src/index.css` to customize colors, gradients, shadows, and animations.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Translations
+Add/edit translations in `src/i18n/locales/*.json`
 
-## How can I deploy this project?
+### Projects
+Update project data in `src/data/projects.ts`
 
-Simply open [Lovable](https://lovable.dev/projects/10fdcfb1-75ee-4369-b60f-a709c0ebdc90) and click on Share -> Publish.
+## SEO
 
-## Can I connect a custom domain to my Lovable project?
+- Semantic HTML5
+- Meta tags (title, description, OG, Twitter)
+- Structured data (JSON-LD)
+- Mobile-optimized
+- Fast loading times
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2025 NEO Nazareveli. All rights reserved.

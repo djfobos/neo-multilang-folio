@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi! I'm",
+    "name": "NEO Nazareveli",
+    "nickname": "(Gela)",
+    "title": "Full-Stack Developer",
+    "tagline": "Speed. Clarity. Scale.",
+    "description": "I build fast, accessible, and scalable web products with clean architecture and elegant design.",
+    "cta_primary": "View My Work",
+    "cta_secondary": "Get in Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate developer from Georgia",
+    "bio": "Hi! I'm Gela — a full-stack developer who loves clean architecture, high performance, and elegant UIs. I build fast, accessible, and scalable web products. I work with modern technologies like Next.js, React, WordPress, and more to turn ideas into reality.",
+    "skills_title": "Skills & Technologies",
+    "experience_title": "Experience",
+    "years": "years of experience"
+  },
+  "projects": {
+    "title": "My Work",
+    "subtitle": "Featured Projects",
+    "filter_all": "All",
+    "view_project": "View Project",
+    "view_live": "View Live",
+    "view_code": "Code",
+    "problem": "Problem",
+    "approach": "Approach",
+    "outcome": "Outcome",
+    "technologies": "Technologies",
+    "role": "Role",
+    "duration": "Duration",
+    "related": "Related Projects"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "How I Can Help",
+    "web_dev": {
+      "title": "Web Development",
+      "description": "Full-featured web applications with Next.js, React, WordPress — fast, SEO-optimized, and scalable."
+    },
+    "performance": {
+      "title": "Performance & SEO Audit",
+      "description": "Deep analysis and optimization — Lighthouse 95+, Core Web Vitals, technical SEO."
+    },
+    "multilingual": {
+      "title": "Multilingual Sites",
+      "description": "i18n integration, hreflang setup, multilingual SEO — complete localization for any market."
+    },
+    "ecommerce": {
+      "title": "E-commerce & WooCommerce",
+      "description": "Online stores, catalogs, payment systems — WooCommerce, Stripe, product management."
+    },
+    "ui_engineering": {
+      "title": "UI/UX Engineering",
+      "description": "Modern design systems, component architecture, accessibility (WCAG 2.2 AA)."
+    },
+    "automation": {
+      "title": "Automation & Integrations",
+      "description": "API integrations, automation, webhooks — save time and boost efficiency."
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What clients say"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's collaborate on your next project",
+    "description": "Have an idea? Need technical consultation? Or just want to say hello? Reach out and let's create something special together.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "social": "Social Media"
+  },
+  "footer": {
+    "tagline": "Building websites that work.",
+    "rights": "All rights reserved.",
+    "links": "Links",
+    "legal": "Legal"
+  },
+  "common": {
+    "loading": "Loading...",
+    "read_more": "Read More",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
